@@ -1,0 +1,13 @@
+[package]
+name = "external-api"
+version = "0.1.0"
+license.workspace = true
+authors.workspace = true
+homepage.workspace = true
+repository.workspace = true
+edition.workspace = true
+
+[dependencies]
+axum = "0.7.7"
+serde_json.workspace = true
+tokio = { version = "1.40.0", features = ["rt-multi-thread"] }
