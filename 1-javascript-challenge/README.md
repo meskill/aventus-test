@@ -15,3 +15,21 @@ Your goal in this exercise is two-fold:
 1. Imagine you receive this code in a Github Pull-Request submitted by one of your team mates. Write a code review for it with comments as you see fit.
 2. Improve the code if you are able. Ensure it builds and runs.
 3. Run the test cases you deem necessary to convince yourself the code is working properly.
+
+## Solution
+
+1. To grasp pull-request experience please see the opened [pull-request](https://github.com/meskill/aventus-test/pull/1).
+2. To see the improved code refer the latest changes in the `./src` directory. Refer [How to run](#how-to-run)
+
+## How to run
+
+- for nix users: run `nix develop` inside the directory
+- otherwise make sure [nodejs](https://nodejs.org/en) >= 20 is installed
+
+### Run tests
+
+From the repo's root run command `node ./src/tests.js`.
+
+### Run interactive mode
+
+From the repo's root run command `node ./src/index.js` and provide the number of leaves to create a tree.
